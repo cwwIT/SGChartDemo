@@ -1,0 +1,476 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2FE3BC742333620D00B900CB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FE3BC732333620D00B900CB /* AppDelegate.m */; };
+		2FE3BC772333620D00B900CB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FE3BC762333620D00B900CB /* ViewController.m */; };
+		2FE3BC7A2333620D00B900CB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2FE3BC782333620D00B900CB /* Main.storyboard */; };
+		2FE3BC7C2333620E00B900CB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2FE3BC7B2333620E00B900CB /* Assets.xcassets */; };
+		2FE3BC7F2333620E00B900CB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2FE3BC7D2333620E00B900CB /* LaunchScreen.storyboard */; };
+		2FE3BC822333620E00B900CB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FE3BC812333620E00B900CB /* main.m */; };
+		2FE3BCAB233362AF00B900CB /* SGBezierPath.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FE3BC8C233362AF00B900CB /* SGBezierPath.m */; };
+		2FE3BCAC233362AF00B900CB /* SGShapeLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FE3BC8D233362AF00B900CB /* SGShapeLayer.m */; };
+		2FE3BCAD233362AF00B900CB /* SGChartVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FE3BC8F233362AF00B900CB /* SGChartVC.m */; };
+		2FE3BCAE233362AF00B900CB /* SGChartRemarksView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FE3BC94233362AF00B900CB /* SGChartRemarksView.m */; };
+		2FE3BCAF233362AF00B900CB /* SGChartBaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FE3BC95233362AF00B900CB /* SGChartBaseView.m */; };
+		2FE3BCB0233362AF00B900CB /* SGChartTimeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FE3BC97233362AF00B900CB /* SGChartTimeView.m */; };
+		2FE3BCB1233362AF00B900CB /* SGChartPVView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FE3BC99233362AF00B900CB /* SGChartPVView.m */; };
+		2FE3BCB2233362AF00B900CB /* SGChartIndexView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FE3BC9A233362AF00B900CB /* SGChartIndexView.m */; };
+		2FE3BCB3233362AF00B900CB /* SGBrokenLineModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FE3BC9E233362AF00B900CB /* SGBrokenLineModel.m */; };
+		2FE3BCB4233362AF00B900CB /* SGHistogramModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FE3BCA1233362AF00B900CB /* SGHistogramModel.m */; };
+		2FE3BCB5233362AF00B900CB /* SGBrokenLineView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FE3BCA3233362AF00B900CB /* SGBrokenLineView.m */; };
+		2FE3BCB6233362AF00B900CB /* SGBrokenContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FE3BCA5233362AF00B900CB /* SGBrokenContentView.m */; };
+		2FE3BCB7233362AF00B900CB /* SGHistogramContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FE3BCA6233362AF00B900CB /* SGHistogramContentView.m */; };
+		2FE3BCB8233362AF00B900CB /* SGHistogramView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FE3BCA8233362AF00B900CB /* SGHistogramView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2FE3BC6F2333620D00B900CB /* SGChartDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SGChartDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2FE3BC722333620D00B900CB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2FE3BC732333620D00B900CB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2FE3BC752333620D00B900CB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2FE3BC762333620D00B900CB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2FE3BC792333620D00B900CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2FE3BC7B2333620E00B900CB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2FE3BC7E2333620E00B900CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2FE3BC802333620E00B900CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2FE3BC812333620E00B900CB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2FE3BC8A233362AF00B900CB /* SGBezierPath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SGBezierPath.h; sourceTree = "<group>"; };
+		2FE3BC8B233362AF00B900CB /* SGShapeLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SGShapeLayer.h; sourceTree = "<group>"; };
+		2FE3BC8C233362AF00B900CB /* SGBezierPath.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SGBezierPath.m; sourceTree = "<group>"; };
+		2FE3BC8D233362AF00B900CB /* SGShapeLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SGShapeLayer.m; sourceTree = "<group>"; };
+		2FE3BC8F233362AF00B900CB /* SGChartVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SGChartVC.m; sourceTree = "<group>"; };
+		2FE3BC90233362AF00B900CB /* SGChartVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SGChartVC.h; sourceTree = "<group>"; };
+		2FE3BC92233362AF00B900CB /* SGChartTimeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SGChartTimeView.h; sourceTree = "<group>"; };
+		2FE3BC93233362AF00B900CB /* SGChartPVView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SGChartPVView.h; sourceTree = "<group>"; };
+		2FE3BC94233362AF00B900CB /* SGChartRemarksView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SGChartRemarksView.m; sourceTree = "<group>"; };
+		2FE3BC95233362AF00B900CB /* SGChartBaseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SGChartBaseView.m; sourceTree = "<group>"; };
+		2FE3BC96233362AF00B900CB /* SGChartIndexView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SGChartIndexView.h; sourceTree = "<group>"; };
+		2FE3BC97233362AF00B900CB /* SGChartTimeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SGChartTimeView.m; sourceTree = "<group>"; };
+		2FE3BC98233362AF00B900CB /* SGChartRemarksView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SGChartRemarksView.h; sourceTree = "<group>"; };
+		2FE3BC99233362AF00B900CB /* SGChartPVView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SGChartPVView.m; sourceTree = "<group>"; };
+		2FE3BC9A233362AF00B900CB /* SGChartIndexView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SGChartIndexView.m; sourceTree = "<group>"; };
+		2FE3BC9B233362AF00B900CB /* SGChartBaseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SGChartBaseView.h; sourceTree = "<group>"; };
+		2FE3BC9D233362AF00B900CB /* SGChartHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SGChartHeader.h; sourceTree = "<group>"; };
+		2FE3BC9E233362AF00B900CB /* SGBrokenLineModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SGBrokenLineModel.m; sourceTree = "<group>"; };
+		2FE3BC9F233362AF00B900CB /* SGHistogramModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SGHistogramModel.h; sourceTree = "<group>"; };
+		2FE3BCA0233362AF00B900CB /* SGBrokenLineModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SGBrokenLineModel.h; sourceTree = "<group>"; };
+		2FE3BCA1233362AF00B900CB /* SGHistogramModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SGHistogramModel.m; sourceTree = "<group>"; };
+		2FE3BCA3233362AF00B900CB /* SGBrokenLineView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SGBrokenLineView.m; sourceTree = "<group>"; };
+		2FE3BCA4233362AF00B900CB /* SGHistogramView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SGHistogramView.h; sourceTree = "<group>"; };
+		2FE3BCA5233362AF00B900CB /* SGBrokenContentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SGBrokenContentView.m; sourceTree = "<group>"; };
+		2FE3BCA6233362AF00B900CB /* SGHistogramContentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SGHistogramContentView.m; sourceTree = "<group>"; };
+		2FE3BCA7233362AF00B900CB /* SGBrokenLineView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SGBrokenLineView.h; sourceTree = "<group>"; };
+		2FE3BCA8233362AF00B900CB /* SGHistogramView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SGHistogramView.m; sourceTree = "<group>"; };
+		2FE3BCA9233362AF00B900CB /* SGHistogramContentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SGHistogramContentView.h; sourceTree = "<group>"; };
+		2FE3BCAA233362AF00B900CB /* SGBrokenContentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SGBrokenContentView.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2FE3BC6C2333620D00B900CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2FE3BC662333620D00B900CB = {
+			isa = PBXGroup;
+			children = (
+				2FE3BC712333620D00B900CB /* SGChartDemo */,
+				2FE3BC702333620D00B900CB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2FE3BC702333620D00B900CB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2FE3BC6F2333620D00B900CB /* SGChartDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2FE3BC712333620D00B900CB /* SGChartDemo */ = {
+			isa = PBXGroup;
+			children = (
+				2FE3BC88233362AF00B900CB /* Chart */,
+				2FE3BC722333620D00B900CB /* AppDelegate.h */,
+				2FE3BC732333620D00B900CB /* AppDelegate.m */,
+				2FE3BC752333620D00B900CB /* ViewController.h */,
+				2FE3BC762333620D00B900CB /* ViewController.m */,
+				2FE3BC782333620D00B900CB /* Main.storyboard */,
+				2FE3BC7B2333620E00B900CB /* Assets.xcassets */,
+				2FE3BC7D2333620E00B900CB /* LaunchScreen.storyboard */,
+				2FE3BC802333620E00B900CB /* Info.plist */,
+				2FE3BC812333620E00B900CB /* main.m */,
+			);
+			path = SGChartDemo;
+			sourceTree = "<group>";
+		};
+		2FE3BC88233362AF00B900CB /* Chart */ = {
+			isa = PBXGroup;
+			children = (
+				2FE3BC89233362AF00B900CB /* LayerAndPath */,
+				2FE3BC8E233362AF00B900CB /* Controller */,
+				2FE3BC91233362AF00B900CB /* AssistBaseView */,
+				2FE3BC9C233362AF00B900CB /* Model */,
+				2FE3BCA2233362AF00B900CB /* View */,
+			);
+			path = Chart;
+			sourceTree = "<group>";
+		};
+		2FE3BC89233362AF00B900CB /* LayerAndPath */ = {
+			isa = PBXGroup;
+			children = (
+				2FE3BC8A233362AF00B900CB /* SGBezierPath.h */,
+				2FE3BC8C233362AF00B900CB /* SGBezierPath.m */,
+				2FE3BC8B233362AF00B900CB /* SGShapeLayer.h */,
+				2FE3BC8D233362AF00B900CB /* SGShapeLayer.m */,
+			);
+			path = LayerAndPath;
+			sourceTree = "<group>";
+		};
+		2FE3BC8E233362AF00B900CB /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				2FE3BC90233362AF00B900CB /* SGChartVC.h */,
+				2FE3BC8F233362AF00B900CB /* SGChartVC.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		2FE3BC91233362AF00B900CB /* AssistBaseView */ = {
+			isa = PBXGroup;
+			children = (
+				2FE3BC92233362AF00B900CB /* SGChartTimeView.h */,
+				2FE3BC97233362AF00B900CB /* SGChartTimeView.m */,
+				2FE3BC93233362AF00B900CB /* SGChartPVView.h */,
+				2FE3BC99233362AF00B900CB /* SGChartPVView.m */,
+				2FE3BC94233362AF00B900CB /* SGChartRemarksView.m */,
+				2FE3BC98233362AF00B900CB /* SGChartRemarksView.h */,
+				2FE3BC96233362AF00B900CB /* SGChartIndexView.h */,
+				2FE3BC9A233362AF00B900CB /* SGChartIndexView.m */,
+				2FE3BC9B233362AF00B900CB /* SGChartBaseView.h */,
+				2FE3BC95233362AF00B900CB /* SGChartBaseView.m */,
+			);
+			path = AssistBaseView;
+			sourceTree = "<group>";
+		};
+		2FE3BC9C233362AF00B900CB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2FE3BC9D233362AF00B900CB /* SGChartHeader.h */,
+				2FE3BC9E233362AF00B900CB /* SGBrokenLineModel.m */,
+				2FE3BCA0233362AF00B900CB /* SGBrokenLineModel.h */,
+				2FE3BC9F233362AF00B900CB /* SGHistogramModel.h */,
+				2FE3BCA1233362AF00B900CB /* SGHistogramModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2FE3BCA2233362AF00B900CB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2FE3BCA7233362AF00B900CB /* SGBrokenLineView.h */,
+				2FE3BCA3233362AF00B900CB /* SGBrokenLineView.m */,
+				2FE3BCA4233362AF00B900CB /* SGHistogramView.h */,
+				2FE3BCA8233362AF00B900CB /* SGHistogramView.m */,
+				2FE3BCAA233362AF00B900CB /* SGBrokenContentView.h */,
+				2FE3BCA5233362AF00B900CB /* SGBrokenContentView.m */,
+				2FE3BCA9233362AF00B900CB /* SGHistogramContentView.h */,
+				2FE3BCA6233362AF00B900CB /* SGHistogramContentView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2FE3BC6E2333620D00B900CB /* SGChartDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2FE3BC852333620E00B900CB /* Build configuration list for PBXNativeTarget "SGChartDemo" */;
+			buildPhases = (
+				2FE3BC6B2333620D00B900CB /* Sources */,
+				2FE3BC6C2333620D00B900CB /* Frameworks */,
+				2FE3BC6D2333620D00B900CB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SGChartDemo;
+			productName = SGChartDemo;
+			productReference = 2FE3BC6F2333620D00B900CB /* SGChartDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2FE3BC672333620D00B900CB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = CWW;
+				TargetAttributes = {
+					2FE3BC6E2333620D00B900CB = {
+						CreatedOnToolsVersion = 10.2;
+					};
+				};
+			};
+			buildConfigurationList = 2FE3BC6A2333620D00B900CB /* Build configuration list for PBXProject "SGChartDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2FE3BC662333620D00B900CB;
+			productRefGroup = 2FE3BC702333620D00B900CB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2FE3BC6E2333620D00B900CB /* SGChartDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2FE3BC6D2333620D00B900CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FE3BC7F2333620E00B900CB /* LaunchScreen.storyboard in Resources */,
+				2FE3BC7C2333620E00B900CB /* Assets.xcassets in Resources */,
+				2FE3BC7A2333620D00B900CB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2FE3BC6B2333620D00B900CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FE3BC772333620D00B900CB /* ViewController.m in Sources */,
+				2FE3BCB7233362AF00B900CB /* SGHistogramContentView.m in Sources */,
+				2FE3BCB1233362AF00B900CB /* SGChartPVView.m in Sources */,
+				2FE3BCB3233362AF00B900CB /* SGBrokenLineModel.m in Sources */,
+				2FE3BCAE233362AF00B900CB /* SGChartRemarksView.m in Sources */,
+				2FE3BCAB233362AF00B900CB /* SGBezierPath.m in Sources */,
+				2FE3BCAC233362AF00B900CB /* SGShapeLayer.m in Sources */,
+				2FE3BCB4233362AF00B900CB /* SGHistogramModel.m in Sources */,
+				2FE3BC822333620E00B900CB /* main.m in Sources */,
+				2FE3BC742333620D00B900CB /* AppDelegate.m in Sources */,
+				2FE3BCB5233362AF00B900CB /* SGBrokenLineView.m in Sources */,
+				2FE3BCAF233362AF00B900CB /* SGChartBaseView.m in Sources */,
+				2FE3BCB2233362AF00B900CB /* SGChartIndexView.m in Sources */,
+				2FE3BCAD233362AF00B900CB /* SGChartVC.m in Sources */,
+				2FE3BCB8233362AF00B900CB /* SGHistogramView.m in Sources */,
+				2FE3BCB6233362AF00B900CB /* SGBrokenContentView.m in Sources */,
+				2FE3BCB0233362AF00B900CB /* SGChartTimeView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2FE3BC782333620D00B900CB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2FE3BC792333620D00B900CB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2FE3BC7D2333620E00B900CB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2FE3BC7E2333620E00B900CB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2FE3BC832333620E00B900CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2FE3BC842333620E00B900CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2FE3BC862333620E00B900CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FTYJBY2LP3;
+				INFOPLIST_FILE = SGChartDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Sungrow.SGChartDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2FE3BC872333620E00B900CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FTYJBY2LP3;
+				INFOPLIST_FILE = SGChartDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Sungrow.SGChartDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2FE3BC6A2333620D00B900CB /* Build configuration list for PBXProject "SGChartDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2FE3BC832333620E00B900CB /* Debug */,
+				2FE3BC842333620E00B900CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2FE3BC852333620E00B900CB /* Build configuration list for PBXNativeTarget "SGChartDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2FE3BC862333620E00B900CB /* Debug */,
+				2FE3BC872333620E00B900CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2FE3BC672333620D00B900CB /* Project object */;
+}
